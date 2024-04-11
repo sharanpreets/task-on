@@ -16,7 +16,7 @@ const TaskInput = ({ task, setTask, handleAddTodo, editChangeIcon }) => {
         <option value="medium">Medium</option>
         <option value="low">Low</option>
       </select>
-      <button type="button" className="btn col-md-12 text-white" style={{ background: "#1A8754" }} onClick={handleAddTodo} >
+      <button type="button" className="btn col-md-12 text-white" style={{ background: "darkblue" }} onClick={handleAddTodo} >
         {editChangeIcon ?
           "Add Task": "Edit Task"}
       </button>

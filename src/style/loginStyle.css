@@ -1,5 +1,5 @@
 :root{
-  --main-bg:#1a8754;
+  --main-bg:#235b7b;
 }
 
 .container{
@@ -21,7 +21,7 @@ input:focus, button:focus {
 }
 
 .input-css::placeholder {
-  font-size: 14px;
+  font-size: 15px;
   color: rgb(182, 181, 181);
 }
 

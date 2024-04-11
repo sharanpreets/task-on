@@ -28,7 +28,7 @@ const TaskList = ({ taskList, handleDeleteTask, handleEditTask }) => {
                       <td>{v?.name} ({v?.type})</td>
                       <td className="d-flex gap-2 justify-content-center align-items-center">
                         <button type="submit" className="btn btn-danger" onClick={() => handleDeleteTask(v?.id)}><i className="bi bi-trash"></i></button>
-                        <button type="submit" className="btn" style={{ background: "#1A8754" }} onClick={() => handleEditTask(v)}><i className="bi bi-pencil text-white"></i></button>
+                        <button type="submit" className="btn" style={{ background: "#00A36C" }} onClick={() => handleEditTask(v)}><i className="bi bi-pencil text-white"></i></button>
                       </td>
                     </tr>
                   })}
